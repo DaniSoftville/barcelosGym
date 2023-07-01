@@ -22,7 +22,7 @@ export const theme = {
       montserrat: ["Montserrat", "sans-serif"],
     },
     content: {
-      barcelostext: "url('./assets/barcelosText.svg')",
+      barcelostext: "url('./assets/barcelostext.svg')",
       abstractwaves: "url('./assets/waves.svg')",
       shapes: "url('./assets/abstractShape.png')",
       circles: "url('./assets/circles.svg')",
