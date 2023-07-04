@@ -95,7 +95,7 @@ const index = ({ setSelectedPage }: Props) => {
           <div>
             {/* TITLE */}
             <div className="relative">
-              <div className="before:absolute before:-left-20 before:-top-20 before:z-[1] before:content-abstractwaves">
+              <div className="before:-left-30 before:absolute before:-top-20 before:z-[1]">
                 <motion.div
                   initial="hidden"
                   whileInView="visible"
@@ -133,7 +133,7 @@ const index = ({ setSelectedPage }: Props) => {
                 tellus. Ullamcorper arcu id pretium sapien proin integer nisl.
                 Felis orci diam odio.
               </p>
-              <p className="mb-5">
+              <p className="mb-5 ">
                 Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
                 tellus quam porttitor. Mauris velit euismod elementum arcu neque
                 facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit
@@ -143,7 +143,7 @@ const index = ({ setSelectedPage }: Props) => {
 
             {/* BUTTON */}
             <div className="relative mt-16">
-              <div className="before:absolute before:-bottom-20 before:right-40 before:z-[-1] before:content-circles">
+              <div className="before:-bottom-30 before:absolute before:right-40 before:z-[-1]">
                 <ActionButton setSelectedPage={setSelectedPage}>
                   Join Now
                 </ActionButton>
