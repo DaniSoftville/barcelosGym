@@ -3,7 +3,6 @@ import image2 from "@/assets/image2.svg";
 import image3 from "@/assets/image3.svg";
 import image4 from "@/assets/image4.svg";
 import image5 from "@/assets/image5.svg";
-import image6 from "@/assets/image6.svg";
 import HText from "@/shared/HText";
 import { ClassType, SelectedPage } from "@/shared/types";
 import { motion } from "framer-motion";
@@ -35,12 +34,6 @@ const classes: Array<ClassType> = [
   {
     name: "Fitness Classes",
     image: image5,
-  },
-  {
-    name: "Training Classes",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    image: image6,
   },
 ];
 
